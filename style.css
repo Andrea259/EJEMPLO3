@@ -1,6 +1,32 @@
-body{
-    background-color: lightsalmon;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
-h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+nav img {
+    width: 26%;
+}
+
+nav h1 {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: rgb(53, 15, 219);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+    height: 5%;
+    margin-top: auto;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
 }
